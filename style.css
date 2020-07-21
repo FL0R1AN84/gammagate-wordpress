@@ -1,0 +1,22 @@
+/*
+ Theme Name:   GammaGate Theme
+ Description:  GeneratePress Child Theme
+ Author:       Florian Wächter
+ Author URI:   https://gammagate.de
+ Template:     generatepress
+ Version:      1.0
+*/
+
+:root {
+    --border-color: #8d8d8d;
+}
+
+.DSGVO {
+    border: 1px solid var(--border-color);
+    padding: 1.5em;
+}
+
+.formulare {
+    border: 1px solid var(--border-color);
+    padding: 1.5em;
+}
