@@ -11,6 +11,14 @@
     --border-color: #8d8d8d;
 }
 
+*, ::after, ::before {
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
+    border-radius: 10px;
+}
+
 .DSGVO {
     border: 1px solid var(--border-color);
     padding: 1.5em;
