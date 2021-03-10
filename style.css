@@ -4,19 +4,20 @@
  Author:       Florian Wächter
  Author URI:   https://gammagate.de
  Template:     generatepress
- Version:      1.0
+ Version:      1.2
 */
 
 :root {
     --border-color: #8d8d8d;
+    --border-radius: 10px;
 }
 
 *, ::after, ::before {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .DSGVO {
